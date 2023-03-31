@@ -40,7 +40,7 @@ public class CibilScoreController {
 		
 		Random random=new Random();
 		CibilScore cs=new CibilScore();
-		
+		System.out.println("aaaaa");
 		String cibilscore=String.valueOf(random.nextInt(max-min)+min);
 		//service.saveCibilScore(cibilscore);
 		return cibilscore+" Generated";
